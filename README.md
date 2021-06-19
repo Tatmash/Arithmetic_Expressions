@@ -1,4 +1,4 @@
-#Arithmetic_Expressions
+# Arithmetic_Expressions
 
 ## What is this project about?
 This repository contains a course work assignment that I completed in 2019. The project is about creating a data structure that represents variables and their mapping to arithmetic expressions.
