@@ -13,7 +13,8 @@ The interface Expression describes the methods that each concrete class in the i
 This class makes use of some of the desired functionalities of our data structure in its main method. I had the opportunity of testing my implementation by running main.
 
 ## What was I required to do?
-In was required to extend a given inheritance hierarchy further: to introduce an additional class "Variable" to represent variables with a String to identify them. Moreover, I was required to add a class "Substitution" whose objects represent finite mappings from Variables to Expressions.
+I was required to create a class ExpressionTest as a test suite, in the format of JUnit version 4.
+I was also required to extend a given inheritance hierarchy further: to introduce an additional class "Variable" to represent variables with a String to identify them. Moreover, I was required to add a class "Substitution" whose objects represent finite mappings from Variables to Expressions.
 
 For example, a Substitution can map variable "x" to an IntExpression "2" and variable "y" to a PlusExpression "a+b". The idea is that a Substitution describes which Expressions are supposed to replace Variables in an Expression.
 
@@ -24,4 +25,3 @@ Using the class Substitution, we add further methods to the interface Expression
 ![arithmetic_diagram](https://user-images.githubusercontent.com/38473664/122651838-56849980-d133-11eb-9717-84668c1c50fe.png)
 
 Further specification of the required functionality is stated in JavaDoc.
-I was also required to create a class ExpressionTest as a test suite, in the format of JUnit version 4.
